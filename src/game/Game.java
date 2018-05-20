@@ -132,6 +132,17 @@ public class Game implements MessageListener{
 		Optional<String> result = dialog.showAndWait();
 		if (result.isPresent())
 			myId = result.get();
+		try {
+			Integer i = Integer.parseInt(myId);
+		}
+		catch(NumberFormatException nfe) {
+			myId = "";
+			Alert alert = new Alert(AlertType.INFORMATION);
+			alert.setTitle("Nie poprawne id");
+			alert.setHeaderText(null);
+			alert.setContentText("Podaj liczbe która będzie Twoim id");
+			alert.showAndWait();
+		}
 	}
 
 	@FXML

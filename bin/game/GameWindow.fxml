@@ -21,47 +21,47 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Label onMouseClicked="#click" prefHeight="146.0" prefWidth="117.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="0">
+            <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#click" prefHeight="85.0" prefWidth="85.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="0">
                <font>
                   <Font size="48.0" />
                </font>
             </Label>
-            <Label onMouseClicked="#click" prefHeight="134.0" prefWidth="118.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="0">
+            <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#click" prefHeight="85.0" prefWidth="85.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="0">
                <font>
                   <Font size="48.0" />
                </font>
             </Label>
-            <Label onMouseClicked="#click" prefHeight="111.0" prefWidth="140.0" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#click" prefHeight="85.0" prefWidth="85.0" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1">
                <font>
                   <Font size="48.0" />
                </font>
             </Label>
-            <Label onMouseClicked="#click" prefHeight="109.0" prefWidth="134.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#click" prefHeight="85.0" prefWidth="85.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <font>
                   <Font size="48.0" />
                </font>
             </Label>
-            <Label onMouseClicked="#click" prefHeight="104.0" prefWidth="130.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#click" prefHeight="85.0" prefWidth="85.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <font>
                   <Font size="48.0" />
                </font>
             </Label>
-            <Label onMouseClicked="#click" prefHeight="101.0" prefWidth="136.0" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#click" prefHeight="85.0" prefWidth="85.0" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="2">
                <font>
                   <Font size="48.0" />
                </font>
             </Label>
-            <Label onMouseClicked="#click" prefHeight="127.0" prefWidth="180.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#click" prefHeight="85.0" prefWidth="85.0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <font>
                   <Font size="48.0" />
                </font>
             </Label>
-            <Label onMouseClicked="#click" prefHeight="90.0" prefWidth="126.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#click" prefHeight="85.0" prefWidth="85.0" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <font>
                   <Font size="48.0" />
                </font>
             </Label>
-            <Label onMouseClicked="#click" prefHeight="117.0" prefWidth="132.0" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <Label alignment="CENTER" contentDisplay="CENTER" onMouseClicked="#click" prefHeight="85.0" prefWidth="85.0" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0">
                <font>
                   <Font size="48.0" />
                </font></Label>

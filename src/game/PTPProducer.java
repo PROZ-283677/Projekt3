@@ -29,7 +29,7 @@ public class PTPProducer {
 			message.setStringProperty("ID", id);
 
 			jmsProducer.send(queue, message);
-			System.out.printf("Wiadomość '%s' została wysłana.\n", message);
+			System.out.printf("Wiadomość '%s' została wysłana.\n", message.getStringProperty("MSG"));
 			
 			jmsContext.close();
 		}

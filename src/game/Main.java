@@ -18,6 +18,7 @@ public class Main extends Application{
 			AnchorPane root = fxmlLoader.load();
 			Scene scene = new Scene(root);
 			primaryStage.setScene(scene);
+			primaryStage.setResizable(false);
 			Game controller = fxmlLoader.getController();
 			primaryStage.setOnHiding(e -> controller.sendLeaveMessage());
 			primaryStage.setTitle("TicTacToe Game");

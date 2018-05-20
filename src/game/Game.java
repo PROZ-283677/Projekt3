@@ -54,10 +54,10 @@ public class Game implements MessageListener{
 		cells[row][column] = currentPlayer;
 
 		if (currentPlayer == 1) {
-			l.setText(" X");
+			l.setText("X");
 			currentPlayer = 2;
 		} else {
-			l.setText(" O");
+			l.setText("O");
 			currentPlayer = 1;
 		}
 		myTurn = false;
@@ -239,15 +239,16 @@ public class Game implements MessageListener{
 			Integer row = Integer.parseInt(message.substring(0,1));
 			Integer column = Integer.parseInt(message.substring(1,2));
 			System.out.println("row="+row+" column="+column);
+			if(row<0 || row>2 || column<0 || column>2) return;
 			
 			ObservableList<Node> childrens = board.getChildren();
 			for (Node node : childrens) {
 				if (GridPane.getRowIndex(node) == row && GridPane.getColumnIndex(node) == column) {
 					Label l = (Label) node;
 					if (currentPlayer == 1) {
-						l.setText(" X");
+						l.setText("X");
 					} else {
-						l.setText(" O");
+						l.setText("O");
 					}
 					break;
 				}
